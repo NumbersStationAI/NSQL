@@ -1,0 +1,139 @@
+### Python ###
+# vespa
+vespa-*
+
+# mlcore_web
+tests/celery.log
+tests/web/integration/data/
+celerybeat-schedule.bak
+celerybeat-schedule.dat
+celerybeat-schedule.dir
+
+# nerf
+emmental.log
+checkpoint_0.0.model.pth
+events.out.tfevents.*
+nerf_matching_*.pth
+
+# bootleg
+tests/integration/nerf/bootleg/data/emb_data/
+tests/integration/nerf/bootleg/data/data_loader/entity_prep_dir/
+tests/integration/nerf/bootleg/data/data_loader/test_data.jsonl
+tests/integration/nerf/bootleg/temp_log/
+
+# fonduer
+geckodriver.log
+candidate_classes.pkl
+mention_classes.pkl
+tmp_model.pkl
+phantomjs/
+tests/integration/fonduer/data/html/
+tests/integration/fonduer/data/pdf/
+tests/integration/fonduer/data/**/*.csv
+tests/integration/fonduer/data/**/*.pkl
+
+# hawkeye
+siamese-bert-base-uncased.pt
+test_psgs/
+toy_psgs
+
+# documentation
+_autosummary/
+docs/reference/modules/
+
+# Log directories
+logs/
+mlruns/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# DBs
+*.db
+
+# C extensions
+*.so
+
+# Documentation
+_build/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+.virtualenv
+env/
+venv/
+virtualenv/
+ENV/
+env.bak/
+venv.bak/
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+
+# wheels
+.whl
+
+# ray
+.sts_token
+
+# VS Code
+*.vscode
