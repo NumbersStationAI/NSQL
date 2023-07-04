@@ -1,7 +1,13 @@
 # NSQL
 Numbers Station Text to SQL model code.
 
-NSQL is a family of autoregressive open-source large foundation models (FMs) designed specifically for SQL generation tasks.
+NSQL is a family of autoregressive open-source large foundation models (FMs) designed specifically for SQL generation tasks. All model weights are provided on HuggingFace.
+
+| Model Name | Size | Link |
+| ---------- | ---- | ------- |
+| NumbersStation/nsql-350M | 350M | [link](https://huggingface.co/NumbersStation/nsql-350M)
+| NumbersStation/nsql-2B   | 2B   | [link](https://huggingface.co/NumbersStation/nsql-2B)
+| NumbersStation/nsql-6B   | 6B   | [link](https://huggingface.co/NumbersStation/nsql-6B)
 
 ## Setup
 To install, run
@@ -44,3 +50,6 @@ def get_sql(instruction: str, max_tokens: int = 300) -> str:
 
 print(get_sql("Number of rows in table?"))
 ```
+
+## Data
+Coming soon!
