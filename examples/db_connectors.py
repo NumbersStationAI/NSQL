@@ -1,7 +1,8 @@
 from contextlib import contextmanager
 from dataclasses import dataclass
 from functools import cached_property
-from typing import Generator, List
+from typing import Any, Generator, List
+import pandas as pd
 import sqlalchemy
 
 from prompt_formatters import TableColumn, Table
@@ -53,6 +54,11 @@ class PostgresConnector:
         finally:
             conn.close()
             engine.dispose()
+
+    def run_sql_as_df(self, sql: str) -> pd.DataFrame:
+        """Run SQL statement."""
+        with self.connect() as conn:
+            return pd.read_sql(sql, conn)
 
     def get_tables(self) -> List[str]:
         """Get all tables in the database."""
@@ -120,6 +126,11 @@ class SQLiteConnector:
         table_names = engine.table_names()
         engine.dispose()
         return table_names
+
+    def run_sql_as_df(self, sql: str) -> pd.DataFrame:
+        """Run SQL statement."""
+        with self.connect() as conn:
+            return pd.read_sql(sql, conn)
 
     def get_schema(self, table: str) -> Table:
         """Return Table."""
