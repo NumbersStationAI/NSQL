@@ -1,4 +1,4 @@
-manifest-ml[all]==0.1.9
+manifest-ml[all]==0.1.8
 pandas>=2.0.0
 sqlalchemy<2.0.0
 transformers>=4.29.0
