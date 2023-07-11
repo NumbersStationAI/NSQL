@@ -1,0 +1,196 @@
+datasets:
+  - loader: kummerfeld
+    name: academic
+    train_data_file: data/text2sql-data/data/academic.json
+    val_data_file: null
+    test_data_file: null
+    schema_file: data/text2sql-data/data/academic-schema.csv
+
+  - loader: kummerfeld
+    name: advising
+    train_data_file: data/text2sql-data/data/advising.json
+    val_data_file: null
+    test_data_file: null
+    schema_file: data/text2sql-data/data/advising-schema.csv
+
+  - loader: kummerfeld
+    name: atis
+    train_data_file: data/text2sql-data/data/atis.json
+    val_data_file: null
+    test_data_file: null
+    schema_file: data/text2sql-data/data/atis-schema.csv
+
+  - loader: kummerfeld
+    name: geography
+    train_data_file: data/text2sql-data/data/geography.json
+    val_data_file: null
+    test_data_file: null
+    schema_file: data/text2sql-data/data/geography-schema.csv
+
+  - loader: kummerfeld
+    name: imdb
+    train_data_file: data/text2sql-data/data/imdb.json
+    val_data_file: null
+    test_data_file: null
+    schema_file: data/text2sql-data/data/imdb-schema.csv
+
+  - loader: kummerfeld
+    name: restaurants
+    train_data_file: data/text2sql-data/data/restaurants.json
+    val_data_file: null
+    test_data_file: null
+    schema_file: data/text2sql-data/data/restaurants-schema.csv
+
+  - loader: kummerfeld
+    name: scholar
+    train_data_file: data/text2sql-data/data/scholar.json
+    val_data_file: null
+    test_data_file: null
+    schema_file: data/text2sql-data/data/scholar-schema.csv
+
+  - loader: kummerfeld
+    name: yelp
+    train_data_file: data/text2sql-data/data/yelp.json
+    val_data_file: null
+    test_data_file: null
+    schema_file: data/text2sql-data/data/yelp-schema.csv
+
+  - loader: spider
+    name: spider
+    train_data_file: data/spider/train_spider.json
+    val_data_file: data/spider/dev.json
+    test_data_file: null
+    schema_file: data/spider/tables.json
+
+  - loader: sede
+    name: sede
+    train_data_file: data/sede/data/sede/train.jsonl 
+    val_data_file: data/sede/data/sede/val.jsonl
+    test_data_file: data/sede/data/sede/test.jsonl
+    schema_file: data/sede/stackexchange_schema/tables_so.json
+
+  - loader: wikisql
+    name: wikisql
+    train_data_file: null
+    val_data_file: null
+    test_data_file: null
+    schema_file: null
+
+  - loader: spider
+    name: eicu
+    train_data_file: data/EHRSQL/dataset/ehrsql/eicu/train.json
+    val_data_file: data/EHRSQL/dataset/ehrsql/eicu/valid.json
+    test_data_file: null
+    schema_file: data/EHRSQL/dataset/ehrsql/tables.json
+
+  - loader: spider
+    name: mimic_iii
+    train_data_file: data/EHRSQL/dataset/ehrsql/mimic_iii/train.json
+    val_data_file: data/EHRSQL/dataset/ehrsql/mimic_iii/valid.json
+    test_data_file: null
+    schema_file: data/EHRSQL/dataset/ehrsql/tables.json
+
+  - loader: spider
+    name: geonucleardata
+    train_data_file: data/KaggleDBQA/examples/GeoNuclearData.json@data/KaggleDBQA/examples/GeoNuclearData_fewshot.json
+    val_data_file: null
+    test_data_file: data/KaggleDBQA/examples/GeoNuclearData_test.json
+    schema_file: data/KaggleDBQA/KaggleDBQA_tables.json
+
+  - loader: spider
+    name: greatermanchestercrime
+    train_data_file: data/KaggleDBQA/examples/GreaterManchesterCrime.json@data/KaggleDBQA/examples/GreaterManchesterCrime_fewshot.json
+    val_data_file: null
+    test_data_file: data/KaggleDBQA/examples/GreaterManchesterCrime_test.json
+    schema_file: data/KaggleDBQA/KaggleDBQA_tables.json
+
+  - loader: spider
+    name: pesticide
+    train_data_file: data/KaggleDBQA/examples/Pesticide.json@data/KaggleDBQA/examples/Pesticide_fewshot.json
+    val_data_file: null
+    test_data_file: data/KaggleDBQA/examples/Pesticide_test.json
+    schema_file: data/KaggleDBQA/KaggleDBQA_tables.json
+
+  - loader: spider
+    name: studentmathscore
+    train_data_file: data/KaggleDBQA/examples/StudentMathScore.json@data/KaggleDBQA/examples/StudentMathScore_fewshot.json
+    val_data_file: null
+    test_data_file: data/KaggleDBQA/examples/StudentMathScore_test.json
+    schema_file: data/KaggleDBQA/KaggleDBQA_tables.json
+
+  - loader: spider
+    name: thehistoryofbaseball
+    train_data_file: data/KaggleDBQA/examples/TheHistoryofBaseball.json@data/KaggleDBQA/examples/TheHistoryofBaseball_fewshot.json
+    val_data_file: null
+    test_data_file: data/KaggleDBQA/examples/TheHistoryofBaseball_test.json
+    schema_file: data/KaggleDBQA/KaggleDBQA_tables.json
+
+  - loader: spider
+    name: uswildfires
+    train_data_file: data/KaggleDBQA/examples/USWildFires.json@data/KaggleDBQA/examples/USWildFires_fewshot.json
+    val_data_file: null
+    test_data_file: data/KaggleDBQA/examples/USWildFires_test.json
+    schema_file: data/KaggleDBQA/KaggleDBQA_tables.json
+
+  - loader: spider
+    name: whatcdhiphop
+    train_data_file: data/KaggleDBQA/examples/WhatCDHipHop.json@data/KaggleDBQA/examples/WhatCDHipHop_fewshot.json
+    val_data_file: null
+    test_data_file: data/KaggleDBQA/examples/WhatCDHipHop_test.json
+    schema_file: data/KaggleDBQA/KaggleDBQA_tables.json
+    num_demos: 0
+    num_copies: 1
+
+  - loader: spider
+    name: worldsoccerdatabase
+    train_data_file: data/KaggleDBQA/examples/WorldSoccerDataBase.json@data/KaggleDBQA/examples/WorldSoccerDataBase_fewshot.json
+    val_data_file: null
+    test_data_file: data/KaggleDBQA/examples/WorldSoccerDataBase_test.json
+    schema_file: data/KaggleDBQA/KaggleDBQA_tables.json
+    num_demos: 0
+    num_copies: 1
+
+  - loader: mimicsql
+    name: mimicsql_data
+    train_data_file: data/TREQS/mimicsql_data/mimicsql_natural_v2/train.json@data/TREQS/mimicsql_data/mimicsql_template/train.json
+    val_data_file: data/TREQS/mimicsql_data/mimicsql_natural_v2/dev.json@data/TREQS/mimicsql_data/mimicsql_template/dev.json
+    test_data_file: data/TREQS/mimicsql_data/mimicsql_natural_v2/test.json@data/TREQS/mimicsql_data/mimicsql_template/test.json
+    schema_file: data/TREQS/mimicsql_data/tables.json
+
+  - loader: criteria2sql
+    name: criteria2sql
+    train_data_file: data/Criteria2SQL/data/train.jsonl
+    val_data_file: data/Criteria2SQL/data/dev.jsonl
+    test_data_file: data/Criteria2SQL/data/test.jsonl
+    train_schema_file: data/Criteria2SQL/data/train.tables.jsonl
+    val_schema_file: data/Criteria2SQL/data/dev.tables.jsonl
+    test_schema_file: data/Criteria2SQL/data/test.tables.jsonl
+    schema_file: null
+
+  - loader: sql_create_context2sql
+    name: sql_create_context
+    train_data_file: null
+    val_data_file: null
+    test_data_file: null
+    schema_file: null
+
+  - loader: squall
+    name: squall
+    train_data_file: data/squall/data/squall.json
+    val_data_file: null
+    test_data_file: null
+    schema_file: null
+
+  - loader: css
+    name: css
+    train_data_file: example.train@template.train@schema.train
+    val_data_file: example.dev@template.dev@schema.dev
+    test_data_file: example.test@template.test@schema.test
+    schema_file: data/css/tables.json
+
+  - loader: nvbench
+    name: nvbench
+    train_data_file: data/nvBench/NVBench.json
+    val_data_file: null
+    test_data_file: null
+    schema_file: data/nvBench/database/
