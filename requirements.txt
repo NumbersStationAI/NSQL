@@ -2,3 +2,6 @@ manifest-ml[all]==0.1.8
 pandas>=2.0.0
 sqlalchemy<2.0.0
 transformers>=4.29.0
+datasets==2.11.0
+jsonlines>=3.1.0
+sqlglot==11.5.5
