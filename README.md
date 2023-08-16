@@ -5,9 +5,10 @@ NSQL is a family of autoregressive open-source large foundation models (FMs) des
 
 | Model Name | Size | Link |
 | ---------- | ---- | ------- |
-| NumbersStation/nsql-350M | 350M | [link](https://huggingface.co/NumbersStation/nsql-350M)
-| NumbersStation/nsql-2B   | 2.7B   | [link](https://huggingface.co/NumbersStation/nsql-2B)
-| NumbersStation/nsql-6B   | 6B   | [link](https://huggingface.co/NumbersStation/nsql-6B)
+| NumbersStation/nsql-350M       | 350M | [link](https://huggingface.co/NumbersStation/nsql-350M)
+| NumbersStation/nsql-2B         | 2.7B | [link](https://huggingface.co/NumbersStation/nsql-2B)
+| NumbersStation/nsql-6B         | 6B   | [link](https://huggingface.co/NumbersStation/nsql-6B)
+| NumbersStation/nsql-llama-2-7B | 7B   | [link](https://huggingface.co/NumbersStation/nsql-llama-2-7B)
 
 ## Setup
 To install, run
