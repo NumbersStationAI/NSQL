@@ -327,6 +327,12 @@ To cite dataset used in this work, please use:
 }
 ```
 
+## Contributors
+
+- **Vishal Motwani** — Founding Head of Product, Numbers Station AI  
+- **Sen Wu** — Co-founder, Numbers Station AI  
+- **Laurel Orr** — Principal Developer, Numbers Station AI
+
 
 ## Acknowledgement
 We are appreciative to the work done by the all authors for those datasets that made this project possible.
