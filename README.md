@@ -337,7 +337,7 @@ NSQL-llama-2-7B achieves near-parity with GPT-4 on overall execution accuracy wh
 
 | Model | Parameters | Execution Acc | Matching Acc |
 |-------|------------|---------------|--------------|
-| **NSQL-llama-2-7B** | **7B** | **75.0%** | **66.3%** |
+| **NSQL-llama-2-7B** | **7B** | **78.1%** | **66.3%** |
 | GPT-4 | ~1.8T | 76.2% | 41.9% |
 | GPT-3.5 | — | 72.8% | 44.2% |
 | Llama-2-7B (base) | 7B | 29.1% | 19.3% |
@@ -358,7 +358,7 @@ NSQL-llama-2-7B achieves near-parity with GPT-4 on overall execution accuracy wh
 - ✅ **+54% better on Nested queries** — complex business logic
 - ✅ **+24.4 points on Matching Accuracy** — structurally correct SQL
 - ✅ **250× smaller** — runs locally, no API calls, complete privacy
-- ✅ **Near-parity overall** — 75.0% vs 76.2% execution accuracy
+- ✅ **Near-parity overall** — 78.1% vs 76.2% execution accuracy
 
 ### Full Model Comparison
 
@@ -372,7 +372,7 @@ NSQL-llama-2-7B achieves near-parity with GPT-4 on overall execution accuracy wh
 | NSQL-350M | 350M | 51.7% | 45.6% | 18.4% | 4.3% |
 | NSQL-2B | 2B | 59.3% | 53.2% | 18.4% | 15.2% |
 | NSQL-6B | 6B | 63.6% | 57.4% | 26.5% | 15.2% |
-| **NSQL-llama-2-7B** | **7B** | **75.0%** | **66.3%** | **26.5%** | **30.4%** |
+| **NSQL-llama-2-7B** | **7B** | **78.1%** | **66.3%** | **26.5%** | **30.4%** |
 | Llama-2-7B | 7B | 29.1% | 19.3% | 0% | 8.7% |
 | Llama-2-13B | 13B | 44.9% | 32.2% | 12.2% | 26.1% |
 | Llama-2-70B | 70B | 61.5% | 35.4% | 12.2% | 28.3% |
@@ -415,7 +415,7 @@ NSQL-llama-2-7B achieves near-parity with GPT-4 on overall execution accuracy wh
 
 ## Contributors
 
-- **Vishal Motwani** — Founding Product Engineer, Numbers Station AI  
+- **Vishal Motwani** — Founding Product Manager, Numbers Station AI  
 - **Sen Wu** — Co-founder, Numbers Station AI  
 - **Laurel Orr** — Principal Developer, Numbers Station AI
 
